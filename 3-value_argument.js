@@ -4,7 +4,7 @@ if (args[0] !== undefined) {
     console.log("One argument");
 }
 else if (args[0,1] !== undefined) {
-    console.log("Two arguments");
+    console.log("2 arguments");
 }
 else {
     console.log("No argument");
