@@ -4,5 +4,5 @@ if (args[0] !== undefined) {
     console.log([0]);
 }
 else {
-    console.log("No arguments");
+    console.log("No argument");
 }
