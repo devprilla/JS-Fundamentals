@@ -1,10 +1,9 @@
 const args = process.argv.slice(2);
  
-args[0] = 1;
-args[1] = 2;
+args[0] = "Python";
+args[1] = "fun";
 if(args[0] && args[1] !== undefined) {
-    console.log("args[0]" + " is " + 1 );
-    console.log("args[1]" + " is " + 2 );
+    console.log(args[0] + " is " + args[1]);
 
 }
 
