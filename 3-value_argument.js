@@ -1,10 +1,10 @@
 const args = process.argv.slice(2);
  
 if (args[0] !== undefined) {
-    console.log([0]);
+    console.log("One argument");
 }
 else if (args[0,1] !== undefined) {
-    console.log([0,2]);
+    console.log("Two arguments");
 }
 else {
     console.log("No argument");
